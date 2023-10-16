@@ -1,0 +1,56 @@
+/* Users.scss or your global styles */
+.users {
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    button {
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .dataTable {
+    .dataGrid {
+      background: white;
+      padding: 20px;
+
+      .MuiDataGrid-toolbarContainer {
+        flex-direction: row-reverse;
+      }
+
+      img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .action {
+        display: flex;
+        gap: 15px;
+
+        img {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+
+        .grant-token-button {
+          padding: 5px 10px;
+          background-color: #007bff; /* Set your desired background color */
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        .grant-token-button:hover {
+          background-color: #0056b3; /* Set your desired hover background color */
+        }
+      }
+    }
+  }
+}

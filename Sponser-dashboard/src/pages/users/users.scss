@@ -1,0 +1,21 @@
+.users {
+  height: 100vh; // Set the height to cover the full viewport height
+
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    button {
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .data-grid-container {
+    height: calc(
+      100% - 50px
+    ); // Subtract any additional margin or padding if needed
+  }
+}
